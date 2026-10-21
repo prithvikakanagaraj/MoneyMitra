@@ -1,0 +1,46 @@
+# Python
+
+**pycache**/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+
+.venv/
+venv/
+env/
+
+# Secrets and environment variables
+
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Local databases and backups
+
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+*.db-shm
+*.db-wal
+*.sqlite-shm
+*.sqlite-wal
+
+# Python testing and coverage
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editors and operating systems
+
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+
+*.log
